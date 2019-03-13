@@ -1,0 +1,1 @@
+2nd and 3rd task for Android course
