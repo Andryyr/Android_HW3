@@ -150,7 +150,7 @@ public class ItemDetailFragment extends Fragment {
                         res = null;
                     } catch (NullPointerException e) {
                         e.printStackTrace();
-                        Log.d(LOG_TAG, "Mama eto medved'");
+                        Log.d(LOG_TAG, "Ochen' zhal'");
                     }
                     Log.d(LOG_TAG, "CachedPicture: got: id: " + ", data.length = " + (res == null ? null : res.length));
 

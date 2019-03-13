@@ -89,7 +89,7 @@ public class LoaderJson extends IntentService {
                     LINKS1.add(new DummyContent.DummyItem(i + "", new Pair<String, String>(r.getResults().get(i).getDescription(), r.getResults().get(i).getUrls().getRegular())));
                 }
             }
-            Log.d(LOG_TAG, "koroche mi sdelali" + LINKS1.size() + LINKS1.get(1));
+            Log.d(LOG_TAG, "done" + LINKS1.size() + LINKS1.get(1));
             main1.post(() -> deliver(LINKS1));
         }
     }
